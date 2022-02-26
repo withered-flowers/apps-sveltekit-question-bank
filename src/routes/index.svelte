@@ -1,2 +1,15 @@
-<h1 class="text-3xl">Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<script>
+	import NavBar from '$lib/components/NavBar.svelte';
+	import ContentLayout from '$lib/layouts/ContentLayout.svelte';
+	import HomeBanner from '$lib/components/HomeBanner.svelte';
+	import HomeSearch from '$lib/components/HomeSearch.svelte';
+</script>
+
+<NavBar />
+
+<ContentLayout isAligned={false} isJustified={false}>
+	<HomeBanner />
+	<div class="-mt-10">
+		<HomeSearch />
+	</div>
+</ContentLayout>
