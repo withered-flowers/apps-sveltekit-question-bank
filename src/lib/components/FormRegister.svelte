@@ -1,5 +1,5 @@
 <form
-	class="bg-[#6BDA81] rounded-xl p-4 w-100 sm:w-1/2 lg:min-w-[55%] lg:max-w-[55%] lg:w-[55%] md:max-w-md m-4"
+	class="bg-white rounded-xl shadow-md p-4 w-100 sm:w-1/2 lg:min-w-[55%] lg:max-w-[55%] lg:w-[55%] md:max-w-md m-4"
 	action="#"
 >
 	<div class="flex flex-col items-center mt-2 mb-4">
@@ -13,7 +13,7 @@
 				name="first-name"
 				id="firstName"
 				placeholder="First Name"
-				class="px-4 py-2 rounded-xl text-slate-700 text-center"
+				class="py-2 px-4 rounded-full bg-slate-100 border-2 min-w-full hover:ring-1 active:ring-1"
 			/>
 		</div>
 		<div class="flex flex-col items-center m-4">
@@ -23,7 +23,7 @@
 				name="last-name"
 				id="lastName"
 				placeholder="Last Name"
-				class="px-4 py-2 rounded-xl text-slate-700 text-center"
+				class="py-2 px-4 rounded-full bg-slate-100 border-2 min-w-full hover:ring-1 active:ring-1"
 			/>
 		</div>
 	</div>
@@ -35,7 +35,7 @@
 				name="email"
 				id="email"
 				placeholder="Your Email Address"
-				class="px-4 py-2 rounded-xl text-slate-700 text-center lg:w-[31rem]"
+				class="py-2 px-4 rounded-full bg-slate-100 border-2  hover:ring-1 active:ring-1 lg:w-[31rem]"
 			/>
 		</div>
 		<div class="flex flex-col items-center m-4 lg:m-2">
@@ -45,7 +45,7 @@
 				name="username"
 				id="username"
 				placeholder="Your Username"
-				class="px-4 py-2 rounded-xl text-slate-700 text-center lg:w-[31rem]"
+				class="py-2 px-4 rounded-full bg-slate-100 border-2  hover:ring-1 active:ring-1 lg:w-[31rem]"
 			/>
 		</div>
 	</div>
@@ -57,7 +57,7 @@
 				name="password"
 				id="password"
 				placeholder="Your Password"
-				class="px-4 py-2 rounded-xl text-slate-700 text-center"
+				class="py-2 px-4 rounded-full bg-slate-100 border-2 min-w-full hover:ring-1 active:ring-1"
 			/>
 		</div>
 		<div class="flex flex-col items-center m-4">
@@ -67,7 +67,7 @@
 				name="verify-password"
 				id="verifyPassword"
 				placeholder="Verify Your Password"
-				class="px-4 py-2 rounded-xl text-slate-700 text-center"
+				class="py-2 px-4 rounded-full bg-slate-100 border-2 min-w-full hover:ring-1 active:ring-1"
 			/>
 		</div>
 	</div>
