@@ -1,6 +1,6 @@
-<script>
-	export let isAligned = true;
-	export let isJustified = true;
+<script lang="ts">
+	export let isAligned: Boolean = true;
+	export let isJustified: Boolean = true;
 </script>
 
 <div
