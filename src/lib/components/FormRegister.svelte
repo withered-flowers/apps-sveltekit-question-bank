@@ -78,7 +78,7 @@
 			>Register</button
 		>
 		<a
-			href="#"
+			href="/login"
 			class="text-lg text-slate-700 underline hover:text-orange-700 transition duration-300"
 			>or... back to Login?</a
 		>

@@ -29,7 +29,7 @@
 			>Login</button
 		>
 		<a
-			href="#"
+			href="/register"
 			class="text-lg text-slate-700 underline hover:text-orange-700 transition duration-300"
 			>or... wanna Register?</a
 		>
