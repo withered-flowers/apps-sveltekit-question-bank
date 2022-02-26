@@ -1,0 +1,28 @@
+<nav>
+	<div class="py-4 bg-[#F4B400] flex justify-between">
+		<!-- Brand (Left) -->
+		<h3 class="mx-4 text-xl text-slate-700">Question Bank v0.1</h3>
+		<!-- End of Brand -->
+		<!-- Navigation (Right) -->
+		<div class="mx-4">
+			<ul class="flex flex-row gap-4">
+				<li>
+					<a href="#" class="text-slate-700 underline hover:text-orange-700 transition duration-300"
+						>First</a
+					>
+				</li>
+				<li>
+					<a href="#" class="text-slate-700 underline hover:text-orange-700 transition duration-300"
+						>Second</a
+					>
+				</li>
+				<li>
+					<a href="#" class="text-slate-700 underline hover:text-orange-700 transition duration-300"
+						>Third</a
+					>
+				</li>
+			</ul>
+		</div>
+		<!-- End of Navigation (Right) -->
+	</div>
+</nav>
