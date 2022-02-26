@@ -1,4 +1,7 @@
-<form class="bg-[#6BDA81] rounded-xl p-4 w-100 sm:w-1/2 md:w-[40%] md:max-w-md m-4" action="#">
+<form
+	class=" bg-white rounded-xl shadow-md p-4 w-100 sm:w-1/2 md:w-[40%] md:max-w-md m-4"
+	action="#"
+>
 	<div class="flex flex-col items-center mt-2 mb-4">
 		<h1 class="text-3xl text-slate-700">Login Form</h1>
 	</div>
@@ -9,7 +12,7 @@
 			name="username"
 			id="username"
 			placeholder="Your Username"
-			class="px-4 py-2 rounded-xl text-slate-700 text-center"
+			class="py-2 mb-4 px-4 rounded-full bg-slate-100 border-2 min-w-full hover:ring-1 active:ring-1"
 		/>
 	</div>
 	<div class="flex flex-col items-center m-4">
@@ -19,7 +22,7 @@
 			name="password"
 			id="password"
 			placeholder="Your Password"
-			class="px-4 py-2 rounded-xl text-slate-700 text-center"
+			class="py-2 mb-4 px-4 rounded-full bg-slate-100 border-2 min-w-full hover:ring-1 active:ring-1"
 		/>
 	</div>
 	<div class="flex flex-col items-center mt-4 mb-2">
