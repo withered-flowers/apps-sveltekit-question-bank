@@ -4,7 +4,7 @@
 </script>
 
 <div
-	class="min-h-[92vh] flex flex-col gap-4s"
+	class="gap-4s flex min-h-[92vh] flex-col"
 	class:items-center={isAligned}
 	class:justify-center={isJustified}
 >
