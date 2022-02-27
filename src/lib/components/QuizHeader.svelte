@@ -9,7 +9,7 @@
 		<span class="text-slate-700">QuizName</span>
 	</div>
 	<div class="flex flex-row items-center gap-2">
-		<span class="text-slate-700">(Icon)</span>
+		<!-- <span class="text-slate-700">(Icon)</span> -->
 		<span class="text-slate-700">HelpButton</span>
 		<span><CountdownTimer /></span>
 	</div>
