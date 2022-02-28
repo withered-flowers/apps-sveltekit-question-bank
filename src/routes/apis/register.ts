@@ -1,21 +1,22 @@
 import { getDbInstance } from '$lib/providers/db';
 import { hashPlaintext } from '$lib/utils/hashing';
+import type { User } from '@prisma/client';
 
 const db = getDbInstance();
 
 export async function post({ request }) {
 	try {
-		const formData = await request.formData();
+		const formData: FormData = await request.formData();
 
 		const objUser: RegisterInput = {
-			username: formData.get('username'),
-			email: formData.get('email'),
-			firstName: formData.get('firstName'),
-			lastName: formData.get('lastName'),
-			password: hashPlaintext(formData.get('password'))
+			username: formData.get('username').toString(),
+			email: formData.get('email').toString(),
+			firstName: formData.get('firstName').toString(),
+			lastName: formData.get('lastName').toString(),
+			password: hashPlaintext(formData.get('password').toString())
 		};
 
-		const newUser = await db.user.create({
+		const newUser: User = await db.user.create({
 			data: objUser
 		});
 

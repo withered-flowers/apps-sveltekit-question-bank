@@ -1,14 +1,14 @@
 import * as jwt from 'jsonwebtoken';
-let secretKey: string = 'thisisnotsafeatall!';
+const secretKey = 'thisisnotsafeatall!';
 
-export const signPayload = (payload: any): string => {
+export const signPayload = (payload: jwt.JwtPayload | string): string => {
 	const token = jwt.sign(payload, secretKey, {
 		expiresIn: '1h'
 	});
 	return token;
 };
 
-export const decodeToken = (token: string): any => {
+export const decodeToken = (token: string): jwt.JwtPayload | string => {
 	const decodedToken = jwt.verify(token, secretKey);
 	return decodedToken;
 };

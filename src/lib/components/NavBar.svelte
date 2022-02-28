@@ -12,12 +12,12 @@
 					>
 				</li>
 				<li>
-					<a href="#" class="text-slate-200 underline transition duration-300 hover:text-orange-200"
+					<a href="/" class="text-slate-200 underline transition duration-300 hover:text-orange-200"
 						>Setting</a
 					>
 				</li>
 				<li>
-					<a href="#" class="text-slate-200 underline transition duration-300 hover:text-orange-200"
+					<a href="/" class="text-slate-200 underline transition duration-300 hover:text-orange-200"
 						>Logout</a
 					>
 				</li>

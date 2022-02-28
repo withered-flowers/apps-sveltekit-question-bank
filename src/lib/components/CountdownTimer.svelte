@@ -4,7 +4,7 @@
 	import dayjs from 'dayjs';
 	import { onMount, onDestroy } from 'svelte';
 
-	export let duration: number = 120; // in minutes
+	export let duration = 120; // in minutes
 
 	let timer = null;
 	let now = dayjs().valueOf();
