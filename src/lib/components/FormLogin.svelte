@@ -1,6 +1,7 @@
 <form
 	class=" w-100 m-4 rounded-xl bg-white p-4 shadow-md sm:w-1/2 md:w-[40%] md:max-w-md"
-	action="#"
+	method="post"
+	action="/apis/login"
 >
 	<div class="mt-2 mb-4 flex flex-col items-center">
 		<h1 class="text-3xl text-slate-700">Login Form</h1>

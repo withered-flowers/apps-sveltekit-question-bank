@@ -11,8 +11,8 @@ export async function post({ request }) {
 		const objUser: RegisterInput = {
 			username: formData.get('username').toString(),
 			email: formData.get('email').toString(),
-			firstName: formData.get('firstName').toString(),
-			lastName: formData.get('lastName').toString(),
+			firstName: formData.get('first-name').toString(),
+			lastName: formData.get('last-name').toString(),
 			password: hashPlaintext(formData.get('password').toString())
 		};
 
