@@ -8,3 +8,16 @@ declare namespace App {
 	// interface Session {}
 	// interface Stuff {}
 }
+
+type RegisterInput = {
+	username: string;
+	email: string;
+	firstName: string;
+	lastName: string;
+	password: string;
+};
+
+type LoginInput = {
+	username: string;
+	password: string;
+};
