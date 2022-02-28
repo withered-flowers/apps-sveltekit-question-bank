@@ -1,6 +1,6 @@
 <form
 	class="w-100 m-4 rounded-xl bg-white p-4 shadow-md sm:w-1/2 md:max-w-md lg:w-[55%] lg:min-w-[55%] lg:max-w-[55%]"
-	action="#"
+	action="/apis/register"
 >
 	<div class="mt-2 mb-4 flex flex-col items-center">
 		<h1 class="text-3xl text-slate-700">Register Form</h1>
