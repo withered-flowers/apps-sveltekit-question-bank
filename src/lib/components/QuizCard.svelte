@@ -1,4 +1,6 @@
-<div>
+<div
+	class="mx-4 mb-4 flex flex-col gap-4 rounded-xl border bg-white px-8 py-8 shadow-md md:ml-4 md:mr-2"
+>
 	<!-- TODO set Current Question of Total Questions -->
 	<div>Quiz No x of y</div>
 	<!-- TODO set the Quiz Question -->

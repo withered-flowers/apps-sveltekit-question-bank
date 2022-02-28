@@ -14,6 +14,9 @@
 		<HomeSearch />
 		<div class="my-4" />
 		<!-- TODO need to make loop here -->
+
+		<HomeTrainingCard />
+		<HomeTrainingCard />
 		<HomeTrainingCard />
 	</div>
 </ContentLayout>
