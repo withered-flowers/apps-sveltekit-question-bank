@@ -1,6 +1,6 @@
 import { getDbInstance } from '$lib/providers/db';
-import { hashPlaintext } from '$lib/utils/hashing';
-import type { User } from '@prisma/client';
+import { createHashedUser, hashPlaintext } from '$lib/utils/hashing';
+import type { HashedUser, User } from '@prisma/client';
 
 const db = getDbInstance();
 
@@ -20,6 +20,15 @@ export async function post({ request }) {
 			data: objUser
 		});
 
+		const objHash: HashedInput = {
+			userId: newUser.id,
+			hash: createHashedUser(newUser.username)
+		};
+
+		const hashedNewUser: HashedUser = await db.hashedUser.create({
+			data: objHash
+		});
+
 		return {
 			status: 201,
 			headers: {
@@ -30,6 +39,9 @@ export async function post({ request }) {
 				user: {
 					id: newUser.id,
 					email: newUser.email
+				},
+				hashedUser: {
+					hash: hashedNewUser.hash
 				}
 			}
 		};

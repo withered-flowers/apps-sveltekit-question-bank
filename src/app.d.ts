@@ -21,3 +21,8 @@ type LoginInput = {
 	username: string;
 	password: string;
 };
+
+type HashedInput = {
+	userId: number;
+	hash: string;
+};

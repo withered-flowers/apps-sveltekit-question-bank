@@ -7,6 +7,13 @@ export const hashPlaintext = (plaintext: string): string => {
 	return `${salt}$${hash}`;
 };
 
+export const createHashedUser = (plaintext: string): string => {
+	const salt = randomBytes(16).toString('hex');
+	const hash = pbkdf2Sync(plaintext, salt, 64, 32, 'sha512').toString('hex');
+
+	return hash;
+};
+
 export const compareHashWithPlaintext = (hashFromDb: string, plaintext: string): boolean => {
 	const hashFromPlaintext = pbkdf2Sync(
 		plaintext,
