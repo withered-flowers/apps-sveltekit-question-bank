@@ -7,18 +7,18 @@
 		<div class="mx-4">
 			<ul class="flex flex-row gap-4">
 				<li>
-					<a href="#" class="text-slate-200 underline transition duration-300 hover:text-orange-200"
-						>First</a
+					<a href="/" class="text-slate-200 underline transition duration-300 hover:text-orange-200"
+						>Dashboard</a
 					>
 				</li>
 				<li>
 					<a href="#" class="text-slate-200 underline transition duration-300 hover:text-orange-200"
-						>Second</a
+						>Setting</a
 					>
 				</li>
 				<li>
 					<a href="#" class="text-slate-200 underline transition duration-300 hover:text-orange-200"
-						>Third</a
+						>Logout</a
 					>
 				</li>
 			</ul>

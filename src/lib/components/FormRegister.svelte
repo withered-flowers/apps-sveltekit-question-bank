@@ -6,7 +6,7 @@
 		<h1 class="text-3xl text-slate-700">Register Form</h1>
 	</div>
 	<div class="flex flex-col justify-center lg:flex-row">
-		<div class="m-4 flex flex-col items-center">
+		<div class="m-4 flex flex-col items-center lg:mx-2 lg:w-1/2">
 			<label for="firstName" class="mb-2 text-xl text-slate-700">First Name</label>
 			<input
 				type="text"
@@ -16,7 +16,7 @@
 				class="min-w-full rounded-full border-2 bg-slate-100 py-2 px-4 hover:ring-1 active:ring-1"
 			/>
 		</div>
-		<div class="m-4 flex flex-col items-center">
+		<div class="m-4 flex flex-col items-center lg:mx-2 lg:w-1/2">
 			<label for="lastName" class="mb-2 text-xl text-slate-700">Last Name</label>
 			<input
 				type="text"
@@ -35,7 +35,7 @@
 				name="email"
 				id="email"
 				placeholder="Your Email Address"
-				class="rounded-full border-2 bg-slate-100 py-2 px-4  hover:ring-1 active:ring-1 lg:w-[31rem]"
+				class="min-w-full rounded-full border-2 bg-slate-100 py-2 px-4 hover:ring-1 active:ring-1 lg:w-[31rem]"
 			/>
 		</div>
 		<div class="m-4 flex flex-col items-center lg:m-2">
@@ -45,12 +45,12 @@
 				name="username"
 				id="username"
 				placeholder="Your Username"
-				class="rounded-full border-2 bg-slate-100 py-2 px-4  hover:ring-1 active:ring-1 lg:w-[31rem]"
+				class="min-w-full rounded-full border-2 bg-slate-100 py-2 px-4 hover:ring-1 active:ring-1 lg:w-[31rem]"
 			/>
 		</div>
 	</div>
 	<div class="flex flex-col justify-center lg:flex-row">
-		<div class="m-4 flex flex-col items-center">
+		<div class="m-4 flex flex-col items-center lg:mx-2 lg:w-1/2">
 			<label for="password" class="mb-2 text-xl text-slate-700">Password</label>
 			<input
 				type="password"
@@ -60,7 +60,7 @@
 				class="min-w-full rounded-full border-2 bg-slate-100 py-2 px-4 hover:ring-1 active:ring-1"
 			/>
 		</div>
-		<div class="m-4 flex flex-col items-center">
+		<div class="m-4 flex flex-col items-center lg:mx-2 lg:w-1/2">
 			<label for="verifyPassword" class="mb-2 text-xl text-slate-700">Verify Password</label>
 			<input
 				type="password"

@@ -8,7 +8,7 @@
 <NavBar />
 
 <QuizHeader />
-<div class="flex flex-col gap-4 md:flex-row-reverse">
+<div class="flex flex-col md:flex-row-reverse">
 	<QuizList />
 	<div class="grow">
 		<QuizCard />

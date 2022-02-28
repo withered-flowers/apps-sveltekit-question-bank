@@ -29,9 +29,27 @@
 	$: s = (count % 60).toString().padStart(2, '0');
 </script>
 
-<div class="text-md flex w-full items-center justify-center text-center">
-	<div class="mx-1 w-24 rounded bg-white py-2 text-orange-700">
-		<div class="font-mono leading-none">{h}:{m}:{s}</div>
+<div class="text-md w-full">
+	<div
+		class="mx-1 flex w-32 flex-row items-center justify-center gap-2 rounded bg-white py-2 text-slate-700"
+	>
+		<svg
+			xmlns="http://www.w3.org/2000/svg"
+			class="h-6 w-6"
+			fill="none"
+			viewBox="0 0 24 24"
+			stroke="currentColor"
+		>
+			<path
+				stroke-linecap="round"
+				stroke-linejoin="round"
+				stroke-width="2"
+				d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"
+			/>
+		</svg>
+		<div class="font-mono leading-none">
+			<span>{h}:{m}:{s}</span>
+		</div>
 	</div>
 </div>
 <!-- <div>Hello</div> -->
